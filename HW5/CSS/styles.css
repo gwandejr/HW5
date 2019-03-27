@@ -1,0 +1,74 @@
+/* Default format for paragraphs */
+p
+    {
+        margin-left: 30px;
+        font-size: 30px;
+    }
+
+/* JQuery format of the paragraph if user wins */
+.won
+    {
+        color: goldenrod;
+        font-weight: bold;
+    }
+
+/* JQuery format of the paragraph for the end game message */
+.end_the_game
+    {
+        font-size: 50px;
+        font-weight: bold;
+        color: black;
+    }
+
+/* Default format for buttons */
+.buttons
+    {
+        padding: 10px 20px;
+        font-size: 20px; 
+        margin-left: 75px;
+    }
+
+/* Default format for headers */
+.headers
+    {
+        margin-left: 30px;    
+    }
+
+/* Default format for the spin button */
+#spin
+    {
+        background-color: lightgreen;        
+    }
+
+/* Default format for the three text boxes */
+#box1, #box2, #box3
+    {
+        margin: 30px;
+        padding: 10px;
+    }
+
+/* JQuery format for the background color of text boxes if random number is 1 */
+.one
+    {
+        background-color: red;
+    }
+
+/* JQuery format for the background color of text boxes if random number is 2 */
+.two
+    {
+        background-color: blue;
+    }
+
+/* JQuery format for the background color of text boxes if random number is 3 */
+.three
+    {
+        background-color: green;
+    }
+
+/* JQuery format for the spin button on the mouseover event */
+.modifySpin
+    {   
+        background-color: darkgreen !important;
+        font-size: 40px;
+    }
+
